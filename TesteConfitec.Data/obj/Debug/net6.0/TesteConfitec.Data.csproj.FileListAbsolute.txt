@@ -1,0 +1,17 @@
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.csproj.AssemblyReference.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.AssemblyInfo.cs
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Domain.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.csproj.CopyComplete
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\ref\TesteConfitec.Data.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Data.deps.json
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Data.runtimeconfig.json
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Data.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\ref\TesteConfitec.Data.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\bin\Debug\net6.0\TesteConfitec.Data.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Data\obj\Debug\net6.0\TesteConfitec.Data.genruntimeconfig.cache

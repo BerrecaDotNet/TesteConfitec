@@ -1,0 +1,12 @@
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.AssemblyInfo.cs
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\ref\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\bin\Debug\net6.0\TesteConfitec.Domain.deps.json
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\bin\Debug\net6.0\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\bin\Debug\net6.0\ref\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\bin\Debug\net6.0\TesteConfitec.Domain.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Domain\obj\Debug\net6.0\TesteConfitec.Domain.csproj.AssemblyReference.cache

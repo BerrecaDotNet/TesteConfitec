@@ -1,0 +1,33 @@
+<h1>Cadastrar Usuario</h1>
+
+<form  (ngSubmit)="submit()">
+    <div class="input_box">
+        <label for="">Nome: </label>
+        <input type="text" formControlName="nome" placeholder="insira o nome" required>
+    </div>
+    <div class="input_box">
+        <label for="">Sobrenome: </label>
+        <input type="text" formControlName="sobrenome" placeholder="insira o sobrenome" required>
+    </div> 
+    <div class="input_box">
+        <label for="">E-mail: </label>
+        <input type="text" formControlName="email" placeholder="insira o email" required>
+    </div>
+    <div class="input_box">
+        <label for="">Data de nascimento: </label>
+        <input type="date" formControlName="dataNascimento" placeholder="insira o data de nascimento" required>
+    </div>
+    <div class="input_box">
+        <label for="">Escolaridade: </label>
+        <select id="escolaridade" type="text" formControlName="escolaridade"  required>
+            <option value="1">Infantil</option>
+            <option value="2">Fundamental</option>
+            <option value="3">Médio </option>
+            <option value="4">Superior</option>
+        </select>
+    </div>
+    <div class="btn-box">
+        <button type="submit">Cadastrar</button>
+        <button routerLink="/usuario">Voltar</button>
+    </div>
+</form>

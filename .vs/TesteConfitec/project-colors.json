@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "750b05c0-2a08-4b3e-b02e-0e22784b233b": {
+      "ProjectGuid": "750b05c0-2a08-4b3e-b02e-0e22784b233b",
+      "DisplayName": "TesteConfitec.WebAPI",
+      "ColorIndex": 0
+    },
+    "3585d344-a691-4001-9aac-119424f26f71": {
+      "ProjectGuid": "3585d344-a691-4001-9aac-119424f26f71",
+      "DisplayName": "TesteTecnico.Data",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "b98680c1-c697-4f68-968e-1b8902f638c7": {
+      "ProjectGuid": "b98680c1-c697-4f68-968e-1b8902f638c7",
+      "DisplayName": "TesteConfitec.Domain",
+      "ColorIndex": 2
+    },
+    "12d44da9-65fc-4bd8-a44b-5d95644792b3": {
+      "ProjectGuid": "12d44da9-65fc-4bd8-a44b-5d95644792b3",
+      "DisplayName": "TesteConfitec.Domain",
+      "ColorIndex": 3
+    },
+    "3ac1d7dd-1cc3-4c15-a7b9-f8ca0affffde": {
+      "ProjectGuid": "3ac1d7dd-1cc3-4c15-a7b9-f8ca0affffde",
+      "DisplayName": "TesteConfitec.Data",
+      "ColorIndex": 4
+    },
+    "3edb6554-4374-4eec-85a4-f8adf23bc25c": {
+      "ProjectGuid": "3edb6554-4374-4eec-85a4-f8adf23bc25c",
+      "DisplayName": "TesteConfitec.Repositories",
+      "ColorIndex": 5
+    },
+    "365ad958-76c8-472a-9c1e-7cadb11f674f": {
+      "ProjectGuid": "365ad958-76c8-472a-9c1e-7cadb11f674f",
+      "DisplayName": "AngularCRUD",
+      "ColorIndex": 6
+    },
+    "dda1d76e-3866-4615-aecb-92681599e157": {
+      "ProjectGuid": "dda1d76e-3866-4615-aecb-92681599e157",
+      "DisplayName": "Angular",
+      "ColorIndex": 7
+    },
+    "23dc929b-d7f2-47b4-a8ac-06f75e385bba": {
+      "ProjectGuid": "23dc929b-d7f2-47b4-a8ac-06f75e385bba",
+      "DisplayName": "TesteConfitec.CRUD",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

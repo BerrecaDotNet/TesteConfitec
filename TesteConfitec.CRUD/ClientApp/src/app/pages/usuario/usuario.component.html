@@ -1,0 +1,35 @@
+<div>
+  <button routerLink="/usuario/cadastro">Cadastrar Usuario</button>
+  <div class="input-box">
+    <label>Procurar: </label>
+    <input type="text" placeholder="Pesquisa por nome" (input)="search($event)" />
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Sobrenome</th>
+      <th>Email</th>
+      <th>DataNascimento</th>
+      <th>Escolaridade</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let Usuario of usuarios">
+    <tr>
+      <td>{{Usuario.Nome}}</td>
+      <td>{{Usuario.Sobrenome}}</td>
+      <td>{{Usuario.Email}}</td>
+      <td>{{Usuario.DataNascimento}}</td>
+      <td>{{Usuario.Escolaridade}}</td>
+      <td>
+        <button routerLink="/usuario/editar">Editar</button>
+      </td>      
+      <td>
+        <button>Excluir</button>
+      </td>
+
+    </tr>
+  </tbody>
+</table>

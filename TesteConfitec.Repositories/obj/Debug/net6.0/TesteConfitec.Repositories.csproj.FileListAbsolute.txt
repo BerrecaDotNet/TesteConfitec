@@ -1,0 +1,17 @@
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Repositories.deps.json
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\ref\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Repositories.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Data.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Domain.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Data.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\bin\Debug\net6.0\TesteConfitec.Domain.pdb
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.csproj.AssemblyReference.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.AssemblyInfo.cs
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.csproj.CopyComplete
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\ref\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.pdb
