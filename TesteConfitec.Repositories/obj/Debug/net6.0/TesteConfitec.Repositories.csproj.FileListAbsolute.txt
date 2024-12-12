@@ -15,3 +15,11 @@ C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\n
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.dll
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\ref\TesteConfitec.Repositories.dll
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.pdb
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.csproj.AssemblyReference.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.AssemblyInfo.cs
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\ref\TesteConfitec.Repositories.dll
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.Repositories\obj\Debug\net6.0\TesteConfitec.Repositories.pdb

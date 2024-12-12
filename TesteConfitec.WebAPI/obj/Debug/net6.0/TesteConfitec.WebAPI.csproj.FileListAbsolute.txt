@@ -75,3 +75,13 @@ C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.WebAPI\bin\Debug\net6.0\TesteConfitec.Repositories.dll
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.WebAPI\bin\Debug\net6.0\TesteConfitec.Repositories.pdb
 C:\Users\renan\source\repos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.csproj.AssemblyReference.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.AssemblyInfo.cs
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.dll
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\ref\TesteConfitec.WebAPI.dll
+C:\Users\renan\source\repos\projetos\TesteConfitec\TesteConfitec.WebAPI\obj\Debug\net6.0\TesteConfitec.WebAPI.pdb
