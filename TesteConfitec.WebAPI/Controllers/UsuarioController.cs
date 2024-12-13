@@ -16,83 +16,60 @@ namespace TesteConfitec.WebAPI.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
-        [HttpPost("Register")]
-        public async Task<IActionResult> Register(Usuario usuario)
+        [HttpGet]
+        public async Task<ActionResult<ServiceResponse<List<Usuario>>>> Getusuarios()
         {
-            if(usuario == null)
-            {
-                return BadRequest($"`{usuario} não pode ser nulo");
-            }
-            if(usuario.DataNascimento > DateTime.Today)
+            return Ok(await _usuarioRepository.GetUsuarios());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ServiceResponse<Usuario>>> GetusuarioById(int id)
+        {
+            ServiceResponse<Usuario> serviceResponse = await _usuarioRepository.GetUsuarioById(id);
+
+            return Ok(serviceResponse);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<ServiceResponse<List<Usuario>>>> Createusuario(Usuario novousuario)
+        {
+
+            if (novousuario.DataNascimento > DateTime.Today)
             {
                 return BadRequest("Data de nascimento não pode ser maior que a data atual");
             }
-            if (!EmailValido(usuario.Email))
+            if (!EmailValido(novousuario.Email))
+            {
+                return BadRequest("Email invalido");
+            }
+            return Ok(await _usuarioRepository.CreateUsuario(novousuario));
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<ServiceResponse<List<Usuario>>>> Updateusuario(Usuario editadousuario)
+        {
+            if (editadousuario.DataNascimento > DateTime.Today)
+            {
+                return BadRequest("Data de nascimento não pode ser maior que a data atual");
+            }
+            if (!EmailValido(editadousuario.Email))
             {
                 return BadRequest("Email invalido");
             }
 
-            await _usuarioRepository.Insert(usuario);
-            return Ok("Usuario registrado com sucesso!");
+            ServiceResponse<List<Usuario>> serviceResponse = await _usuarioRepository.UpdateUsuario(editadousuario);
+
+            return Ok(serviceResponse);
         }
 
-        [HttpGet("AllUsers")]
-        public async Task<IActionResult> TodosUsuarios()
+
+        [HttpDelete]
+        public async Task<ActionResult<ServiceResponse<List<Usuario>>>> DeleteUsuario(int id)
         {
-            var result = await _usuarioRepository.GetAll();
-            return Ok(result.ToList());
-           
-        }
+            ServiceResponse<List<Usuario>> serviceResponse = await _usuarioRepository.DeleteUsuario(id);
 
-        [HttpGet("UserById/{Id}")]
-        public async Task<IActionResult> UsuarioPorId(int Id)
-        {
-            var result = await _usuarioRepository.GetById(Id);
-            if (result == null)
-            {
-                return NotFound($"ID {Id}, não encontrado.");
-            }
-            return Ok(result);
+            return Ok(serviceResponse);
 
-        }
-
-        [HttpDelete("Delete/{Id}")]
-        public async Task<IActionResult> Delete(int Id)
-        {
-            var result = await _usuarioRepository.GetById(Id);
-            if (result == null)
-            {
-                return NotFound($"ID {Id}, não encontrado.");
-            }
-            await _usuarioRepository.Delete(Id);
-            return Ok($"ID {Id}, Deletado com sucesso!");
-        }
-
-        [HttpPut("Update/{Id}")] 
-        public async Task<IActionResult> Update(int Id, Usuario usuario)
-        {
-            if (Id != usuario.UsuarioId)
-            {
-                return BadRequest($"ID { Id}, não encontrado.");
-            }
-            if (usuario.DataNascimento > DateTime.Today)
-            {
-                return BadRequest("Data de nascimento não pode ser maior que a data atual");
-            }
-            if (!EmailValido(usuario.Email))
-            {
-                return BadRequest("Email invalido");
-            }
-
-            try
-            {
-                await _usuarioRepository.Update(Id, usuario);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-            return Ok("Usuario atualizado com sucesso!");
         }
 
         public static bool EmailValido(string email)

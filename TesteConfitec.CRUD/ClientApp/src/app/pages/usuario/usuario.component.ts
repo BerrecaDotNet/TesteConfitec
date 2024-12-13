@@ -11,38 +11,41 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class UsuarioComponent implements OnInit{
 
-  usuarios: Usuario[] = [];
+  usuarios: Usuario[] = [] ;
   usuariosGeral: Usuario[] = [];
+  
 
   columnsToDisplay = ['Nome', 'Sobrenome', 'E-mail', 'Data de Nascimento', 'Escolaridade'];
 
   constructor(private usuarioDataService: UsuarioDataService, public matDialog: MatDialog) {
-
+    
   }
 
   ngOnInit(): void {
-    this.usuarioDataService.GetAllUsers().subscribe((data) => {
-      
+
+    this.usuarioDataService.GetTodosUsuarios().subscribe((data) => {
+
+      const dados = data.dados;
+
+      console.log("------DATA------");
       console.log(data);
+
+      console.log("------DADOS------");
+      console.log(dados);
       
+      console.log("------DADOS[1].Nome------");
+      console.log(dados[1].Nome);
 
       
-      data.map(( item)=>{
+      dados.map(( item) => {
           item.DataNascimento = new Date(item.DataNascimento!).toLocaleDateString('pt-BE');
-          //item.Nome = "rebecca";
-        console.log("------------");
-        console.log("Nome: " + item.Nome);
-        console.log("Sobrenome: " + item.Nome);
-         
+        
       });
 
-      this.usuarios = data;
-      this.usuariosGeral = data;
+      this.usuarios = dados;
+      this.usuariosGeral = dados;
 
     });
-
-    
-
     }
 
     search(event : Event){

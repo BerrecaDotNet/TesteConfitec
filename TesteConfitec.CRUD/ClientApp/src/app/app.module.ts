@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
@@ -13,7 +13,6 @@ import { UsuarioDataService } from './_data-services/user.data-service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CadastroComponent } from './pages/usuario/cadastro/cadastro.component';
 
-import { ReactiveFormsModule } from '@angular/forms';
 
 
 import {MatButtonModule} from '@angular/material/button';
@@ -27,6 +26,9 @@ import {MatDialogModule} from '@angular/material/dialog';
 import{CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { EditarComponent } from './pages/usuario/editar/editar.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +36,7 @@ import { EditarComponent } from './pages/usuario/editar/editar.component';
     HomeComponent,
     UsuarioComponent,
     EditarComponent,
+   
     
 
   ],
@@ -57,6 +60,7 @@ import { EditarComponent } from './pages/usuario/editar/editar.component';
     MatInputModule,
     MatSelectModule,
     MatDialogModule,
+
     
 
   ],
